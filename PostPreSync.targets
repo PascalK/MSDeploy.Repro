@@ -1,0 +1,32 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  ToolsVersion="4.0">
+  <PropertyGroup>
+    <BeforeWriteItemsToSourceManifest Condition="'$(BeforeWriteItemsToSourceManifest)'==''">
+      AddPostSyncToSourceManifest;
+    </BeforeWriteItemsToSourceManifest>
+    <AfterAddIisSettingAndFileContentsToSourceManifest Condition="'$(AfterAddIisSettingAndFileContentsToSourceManifest)'==''">
+      AddPreSyncToSourceManifest;
+    </AfterAddIisSettingAndFileContentsToSourceManifest>
+  </PropertyGroup>
+  <Target Name="AddPostSyncToSourceManifest">
+    <ItemGroup>
+      <MsDeploySourceManifest Include="runCommand">
+        <Path>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)PostSync.cmd'))</Path>
+        <successReturnCodes>0</successReturnCodes>
+        <waitInterval>5000</waitInterval>
+        <dontUseJobObject>False</dontUseJobObject>
+        <AdditionalProviderSettings>successReturnCodes;waitInterval;dontUseJobObject</AdditionalProviderSettings>
+      </MsDeploySourceManifest>
+    </ItemGroup>
+  </Target>
+  <Target Name="AddPreSyncToSourceManifest">
+    <ItemGroup>
+      <MsDeploySourceManifest Include="runCommand">
+        <Path>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)PreSync.cmd'))</Path>
+        <successReturnCodes>0</successReturnCodes>
+        <waitInterval>5000</waitInterval>
+        <dontUseJobObject>False</dontUseJobObject>
+        <AdditionalProviderSettings>successReturnCodes;waitInterval;dontUseJobObject</AdditionalProviderSettings>
+      </MsDeploySourceManifest>
+    </ItemGroup>
+  </Target>
+</Project>

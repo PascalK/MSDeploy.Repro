@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <parameter name="SyncParameter"
+             description="SyncParameter description">
+    <parameterEntry kind="TextFile" scope="\\PreSync\.cmd$" match="&lt;SyncParameter&gt;" />
+    <parameterEntry kind="TextFile" scope="\\PostSync\.cmd$" match="&lt;SyncParameter&gt;" />
+  </parameter>
+  <!--<parameter name="DeploymentPath" description="DeploymentPath description">
+    <parameterEntry kind="ProviderPath" scope="contentPath" match="\\Test\.Service\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>-->
+  <parameter name="TestCSParameter"
+             description="TestCSParameter description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/connectionStrings/add[@name='TestCS']/@connectionString" />
+  </parameter>
+  <parameter name="TestAppSetting1"
+             description="TestAppSetting1 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting1']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting2"
+             description="TestAppSetting2 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting2']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting3"
+             description="TestAppSetting3 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting3']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting4"
+             description="TestAppSetting4 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting4']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting5"
+             description="TestAppSetting5 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting5']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting6"
+             description="TestAppSetting6 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting6']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting7"
+             description="TestAppSetting7 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting7']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting8"
+             description="TestAppSetting8 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting8']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting9"
+             description="TestAppSetting9 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting9']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting10"
+             description="TestAppSetting10 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting10']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting11"
+ description="TestAppSetting11 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting11']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting12"
+ description="TestAppSetting12 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting12']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting13"
+ description="TestAppSetting13 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting13']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting14"
+ description="TestAppSetting14 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting14']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting15"
+ description="TestAppSetting15 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting15']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting16"
+ description="TestAppSetting16 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting16']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting17"
+ description="TestAppSetting17 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting17']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting18"
+ description="TestAppSetting18 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting18']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting19"
+ description="TestAppSetting19 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting19']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting20"
+ description="TestAppSetting20 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting20']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting21"
+ description="TestAppSetting21 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting21']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting22"
+ description="TestAppSetting22 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting22']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting23"
+ description="TestAppSetting23 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting23']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting24"
+ description="TestAppSetting24 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting24']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting25"
+ description="TestAppSetting25 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting25']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting26"
+ description="TestAppSetting26 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting26']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting27"
+ description="TestAppSetting27 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting27']/@value" />
+  </parameter>
+  <parameter name="TestAppSetting28"
+ description="TestAppSetting28 description">
+    <parameterEntry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='TestAppSetting28']/@value" />
+  </parameter>
+  <!--
+  <parameter name=""
+             description=""
+             defaultValue=""
+             tags="">
+    <parameterEntry kind="XmlFile" scope="\\web.config$" match="/configuration"/>
+  </parameter>
+  -->
+</parameters>

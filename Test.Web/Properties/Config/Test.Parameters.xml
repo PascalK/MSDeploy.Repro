@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <setParameter name="SyncParameter" value="SyncParameterTest" />
+  <setParameter name="IIS Web Application Name" value="Default/Test.Web" />
+  <setParameter name="TestCSParameter" value="Test" />
+
+  <setParameter name="TestAppSetting1" value="TestAppSetting1" />
+  <setParameter name="TestAppSetting2" value="TestAppSetting2" />
+  <setParameter name="TestAppSetting3" value="TestAppSetting3" />
+  <setParameter name="TestAppSetting4" value="TestAppSetting4" />
+  <setParameter name="TestAppSetting5" value="TestAppSetting5" />
+  <setParameter name="TestAppSetting6" value="TestAppSetting6" />
+  <setParameter name="TestAppSetting7" value="TestAppSetting7" />
+  <setParameter name="TestAppSetting8" value="TestAppSetting8" />
+  <setParameter name="TestAppSetting9" value="TestAppSetting9" />
+  <setParameter name="TestAppSetting10" value="TestAppSetting10" />
+  <setParameter name="TestAppSetting11" value="TestAppSetting11" />
+  <setParameter name="TestAppSetting12" value="TestAppSetting12" />
+  <setParameter name="TestAppSetting13" value="TestAppSetting13" />
+  <setParameter name="TestAppSetting14" value="TestAppSetting14" />
+  <setParameter name="TestAppSetting15" value="TestAppSetting15" />
+  <setParameter name="TestAppSetting16" value="TestAppSetting16" />
+  <setParameter name="TestAppSetting17" value="TestAppSetting17" />
+  <setParameter name="TestAppSetting18" value="TestAppSetting18" />
+  <setParameter name="TestAppSetting19" value="TestAppSetting19" />
+  <setParameter name="TestAppSetting20" value="TestAppSetting20" />
+  <setParameter name="TestAppSetting21" value="TestAppSetting21" />
+  <setParameter name="TestAppSetting22" value="TestAppSetting22" />
+  <setParameter name="TestAppSetting23" value="TestAppSetting23" />
+  <setParameter name="TestAppSetting24" value="TestAppSetting24" />
+  <setParameter name="TestAppSetting25" value="TestAppSetting25" />
+  <setParameter name="TestAppSetting26" value="TestAppSetting26" />
+  <setParameter name="TestAppSetting27" value="TestAppSetting27" />
+  <setParameter name="TestAppSetting28" value="TestAppSetting28" />
+</parameters>
